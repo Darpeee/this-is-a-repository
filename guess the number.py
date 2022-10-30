@@ -17,7 +17,7 @@ while guess>number and i<10:
         time.sleep(1)
         guess=int(input('try again: '))
     elif guess-number<=5:
-        print('you are close')
+        print('you are close but high')
         time.sleep(1)
         guess=int(input('try again: '))
 while guess<number and i<10:
@@ -30,7 +30,7 @@ while guess<number and i<10:
         time.sleep(1)
         guess=int(input('try again: '))
     elif number-guess<=5:
-        print ('you are close')
+        print ('you are close but low')
         time.sleep(1)
         guess=int(input('try again: '))
 if number==guess:

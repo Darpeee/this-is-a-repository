@@ -34,6 +34,8 @@ def number_to_roman_numeral():
                 ten+=c*'X'
             elif c==4:
                 ten+='XL'
+            elif c==5:
+                ten+='L'
             elif c>5 and c<9:
                 ten+='L'
                 ten+=(c-5)*'X'
@@ -45,6 +47,8 @@ def number_to_roman_numeral():
                 hundred+=c*'C'
             elif c==4:
                 hundred+='CD'
+            elif c==5:
+                hundred+='D'
             elif c>5 and c<9:
                 hundred+='D'
                 hundred+=(c-5)*'C'
@@ -62,3 +66,4 @@ def number_to_roman_numeral():
     print(answer)
 
 number_to_roman_numeral()
+#this is the 69th line

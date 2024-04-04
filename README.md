@@ -7,5 +7,5 @@ It generated a triangle pattern for you depending on how many rows you want
 # Rock, Paper, Scissors
 Classical rock paper scissor game
 
-#Number To Roman Numeral
+# Number To Roman Numeral
 Read the title
